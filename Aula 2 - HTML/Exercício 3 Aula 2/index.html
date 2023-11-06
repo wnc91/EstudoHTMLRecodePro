@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Trabalhando com Formulário</title>
+</head>
+<body>
+	<h1 align="center">ATENDIMENTO</h1>
+	<p>Entre em contato preenchendo o formulário. Teremos o maior prazer em atender ao seu contato.</p><br>
+
+	<form>
+		<table align="left">
+			<input type="radio" name="pessoa" align="center"> Pessoa Física | 
+			<input type="radio" name="pessoa" align="center">Pessoa Jurídica <br>
+
+			<tr>
+				<td align="right"><label>CPF/CNPJ: </label></td>
+				<td><input type="text" name="CPF/CNPJ" size="50"></td>
+			</tr>
+			<tr>
+				<td align="right"><label>Nome: </label></td>
+				<td><input type="text" name="nome" size="50"></td>
+			</tr>
+			<tr>
+				<td align="right"><label>Email: </label></td>
+				<td><input type="Email" name="email" size="50"><br></td>
+			</tr>
+			<tr>
+				<td align="right"><label>Telefone: </label></td>
+				<td><input type="text" name="telefone" size="50"><br></td>
+			</tr>
+			<tr>
+				<td align="right"><label>Cidade: </label></td>
+				<td><input type="text" name="cidade" size="50"><br></td>
+			</tr>
+			<tr>
+				<td align="right"><label>Assunto: </label></td>
+				<td>
+					<select>
+						<option value="Suporte">Suporte</option>
+						<option value="Financeiro">Financeiro</option>
+						<option value="RH">RH</option>
+						<option value="Vendas">Vendas</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td align="right"><label>Mensagem: </label></td>
+				<td><textarea cols="50" rows="10"></textarea><br></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Enviar"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
